@@ -28,7 +28,11 @@ C로 쓴 자료구조론 (2판)을 사용하는 것을 생각하고 있습니다
 
 ## 진행 방법
 
-[GitHub Pull Request](https://mansukim1125.github.io/2020/06/20/code-review-guide-for-github.html)를 적극 활용할 생각입니다.
+다음의 진행방법은 확정된 것이 아니며, 자유로운 의견 제시 바랍니다.
+
+1. 매주 한 번 오프라인에서 자신이 맡은 주제를 발표하고 토론하기.
+2. 해당 주제를 발표한 사람이 문제를 제시하기.
+3. [GitHub Pull Request](https://mansukim1125.github.io/2020/06/20/code-review-guide-for-github.html)를 적극 활용하여 코드 리뷰하기.
 
 ## 방역 수칙
 
