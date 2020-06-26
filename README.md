@@ -35,7 +35,7 @@
 
 1. 1주 1주제 공부
 2. 한 장(예: 트리)이 완전히 끝나면 문제 결정하기. 문제 결정은 Issue를 만들어 결정
-3. 문제를 해결하고 [GitHub Pull Request](https://mansukim1125.github.io/2020/06/20/code-review-guide-for-github.html)를 활용하여 코드 리뷰하기.
+3. 문제를 1주에 걸쳐 해결하고 [GitHub Pull Request](https://mansukim1125.github.io/2020/06/20/code-review-guide-for-github.html)를 활용하여 코드 리뷰하기.
 
 ## 참여하기
 
