@@ -1,0 +1,4 @@
+clang
+%c -std=c17
+-I/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include
+-I/Users/kkweon/homebrew/include
