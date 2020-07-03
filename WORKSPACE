@@ -19,6 +19,6 @@ rules_foreign_cc_dependencies([])
 new_git_repository(
     name = "unity",
     branch = "master",
-    remote = "git@github.com:ThrowTheSwitch/Unity.git",
+    remote = "https://github.com/ThrowTheSwitch/Unity.git",
     build_file = "@//:thirdparty/unity.BUILD",
 )
