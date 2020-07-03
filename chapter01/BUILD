@@ -12,6 +12,5 @@ cc_test(
     deps = [
         "@unity//:unity",
         ":chapter01",
-        "//log:log",
     ],
 )
