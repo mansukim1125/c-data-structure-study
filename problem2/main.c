@@ -9,7 +9,7 @@ int binarySearch(const int *arr, const int size, const int key) {
     int left = 0, right = size - 1;
     int middle;
     while(left <= right) {
-        middle = (left + right) / 2;
+        middle = left + (right - left) / 2; // prevent overflow left + right.
         switch (key > arr[middle] ? -1 : key < arr[middle] ? 1 : 0) {
             case -1: left = middle + 1; break;
             case 1: right = middle - 1; break;
