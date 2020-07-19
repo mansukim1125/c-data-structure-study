@@ -3,15 +3,16 @@
 #include "ctest.h"
 
 int solution(int **board, const int board_width, int *moves, const int moves_width) {
-    int **arr = (int **)calloc(board_width, sizeof(int *));
-    Stack *stacks = (Stack *)calloc(board_width, sizeof(Stack));
-    Stack basket;
-    int result = 0;
+    int **arr = (int **)calloc(board_width, sizeof(int *)); // 2 dimensional array pointer.
+    Stack *stacks = (Stack *)calloc(board_width, sizeof(Stack)); // create stacks store board items.
+    Stack basket; // stack to store popped at stacks.
+    int result = 0; // count of popped from basket.
     int stack_top, basket_top, crane_index;
     for (int i = 0; i < board_width; ++i) {
         arr[i] = (int *)board + board_width * i;
     }
 
+    // transpose items in board
     for (int i = 0; i < board_width; ++i) {
         initialize(&stacks[i], board_width);
         for (int j = 0; j < board_width; ++j) {
@@ -28,7 +29,7 @@ int solution(int **board, const int board_width, int *moves, const int moves_wid
         if ( !isEmpty(&basket) && stack_top == peek(&basket) ) {
             pop(&basket);
             result += 2;
-        } else if (stack_top != -1) {
+        } else if (stack_top != -1) { // if stack is empty, stack_top == -1.
             push(&basket, &stack_top);
         }
     }
